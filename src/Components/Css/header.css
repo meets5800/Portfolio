@@ -1,0 +1,31 @@
+.main{
+    width: 100%; 
+    color: white;
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header-buttons{
+    background-color: rgb(3, 21, 32);
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+}
+.header-buttons:hover{
+    background-color: gainsboro;
+    color: black;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.active button{
+    background-color: red;
+}
